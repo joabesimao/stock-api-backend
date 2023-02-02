@@ -1,4 +1,4 @@
-``` mermaid
+```mermaid
 classDiagram
     class Stock{
         -id: string
@@ -18,7 +18,7 @@ classDiagram
     }
 
     class Position{
-        stock: Stock[]
+        stock: Stock
         quantity: number
     }
 

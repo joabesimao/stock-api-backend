@@ -7,3 +7,5 @@ Este projeto tem por objetivo criar um sistema que permita visualizar ações da
 ### 01 - Eu como cliente, quero cadastrar as ações que possuo em minha carteira no sistema para ter controle de meus investimento
 
 ### 02 - Eu como cliente, quero visualizar o preço das ações de minha carteira em tempo real para saber se estou no prejuízo ou no lucro
+
+Será utiliza a api https://brapi.dev/docs para a consulta das ações em tempo real
