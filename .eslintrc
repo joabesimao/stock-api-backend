@@ -5,12 +5,11 @@
   },
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:eslint-plugin-import-helpers"
+    "plugin:@typescript-eslint/recommended"
   ],
   "parserOptions": {
     "project": ["./tsconfig.json"]
