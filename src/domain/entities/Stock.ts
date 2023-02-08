@@ -5,5 +5,6 @@ export interface Stock {
   _name: string;
   _valueStock: Money;
 
-  show(): void;
+  showIdENameStock(): string;
+  showValueStock(): Money;
 }

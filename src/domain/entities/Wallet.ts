@@ -1,4 +1,5 @@
 import { Client } from './Client';
+
 import { Position } from './Position';
 
 export class Wallet {
